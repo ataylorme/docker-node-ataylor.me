@@ -48,6 +48,11 @@ RUN \
 	echo -e "\nInstalling jq..." && \
 	apt-get install -y jq
 
+# Install s3cmd
+RUN \
+	echo -e "\nInstalling s3cmd..." && \
+	apt-get install -y s3cmd
+
 # Install Google Chrome
 RUN \
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \

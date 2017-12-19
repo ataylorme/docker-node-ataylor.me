@@ -6,6 +6,7 @@ Dockerfile for node steps of https://www.ataylor.me/
 * wget
 * openssh
 * rsync
+* [s3mcd](http://s3tools.org/s3cmd)
 * Chromium `63.x`
 * [lighthouse](https://github.com/GoogleChrome/lighthouse/) `2.6.0`
 * [gatsby](https://www.gatsbyjs.org/) `1.9.142`
