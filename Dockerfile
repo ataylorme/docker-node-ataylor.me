@@ -12,6 +12,11 @@ RUN \
 	echo -e "\nRunning apt-get update..." && \
 	apt-get update
 
+# Install build-essential
+RUN \
+	echo -e "\nInstalling build-essential..." && \
+	apt-get install -y build-essential
+
 # Install curl
 RUN \
 	echo -e "\nInstalling curl..." && \
