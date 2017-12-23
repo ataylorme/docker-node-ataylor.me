@@ -5,7 +5,7 @@ ENV \
 	LIGHTHOUSE_VERSION=2.6.0
 
 ENV \
-	GATSBY_VERSION=1.9.142
+	GATSBY_VERSION=1.1.28
 
 # Run updates
 RUN \
@@ -73,4 +73,4 @@ RUN \
 # Install gatsby globally
 RUN \
 	echo -e "\nInstalling gatsby v${GATSBY_VERSION}..." && \
-	npm install -g gatsby@${GATSBY_VERSION}
+	npm install -g gatsby-cli@${GATSBY_VERSION}
